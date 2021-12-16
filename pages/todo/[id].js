@@ -18,7 +18,7 @@ import {
 } from 'next-firebase-auth';
 import firebase from 'firebase/app';
 import 'firebase/firestore';
-import Header from '../components/Header';
+import Header from '../../components/Header';
 
 const SingleTodo = ({itemData}) => {
   const AuthUser = useAuthUser();

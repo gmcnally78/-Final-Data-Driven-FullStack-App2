@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 import {
   useAuthUser,
   withAuthUser,
   withAuthUserTokenSSR,
-} from 'next-firebase-auth'
-import Header from '../components/Header'
-import DemoPageLinks from '../components/DemoPageLinks'
+} from 'next-firebase-auth';
+import Header from '../components/Header';
+import DemoPageLinks from '../components/DemoPageLinks';
 import {
   Box,
 } from '@chakra-ui/react';

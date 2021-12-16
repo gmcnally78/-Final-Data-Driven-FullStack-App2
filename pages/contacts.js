@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react';
 import {
     // Container,
     Flex,
@@ -20,7 +20,7 @@ import {
     Divider,
     Link,
   } from '@chakra-ui/react';
-  import { AddIcon, DeleteIcon, StarIcon } from "@chakra-ui/icons"
+  import { AddIcon, DeleteIcon, StarIcon } from "@chakra-ui/icons";
   // import {
   //   MdPhone,
   //   MdEmail,
@@ -36,10 +36,10 @@ import {
     withAuthUser,
     withAuthUserTokenSSR,
     AuthAction,
-} from 'next-firebase-auth'
-import firebase from 'firebase/app'
-import 'firebase/firestore'
-import Header from '../components/Header'
+} from 'next-firebase-auth';
+import firebase from 'firebase/app';
+import 'firebase/firestore';
+import Header from '../components/Header';
 
 const Contact = () => {
     const AuthUser = useAuthUser();

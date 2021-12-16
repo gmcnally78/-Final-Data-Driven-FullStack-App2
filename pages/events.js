@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react';
 import {
     Flex,
     Heading,
@@ -10,7 +10,7 @@ import {
     IconButton,
     Divider,
     Link
-} from "@chakra-ui/react"
+} from "@chakra-ui/react";
 import { AddIcon, DeleteIcon, StarIcon } from "@chakra-ui/icons";
 import {
     useAuthUser,
