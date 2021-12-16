@@ -17,7 +17,11 @@ import {
     withAuthUserTokenSSR,
     AuthAction,
 } from 'next-firebase-auth'
+<<<<<<< HEAD
 // import getAbsoluteURL from '../utils/getAbsoluteURL'
+=======
+//import getAbsoluteURL from '../utils/getAbsoluteURL'
+>>>>>>> 1623b63882c4d2d16302765fefb71588d7636f99
 import firebase from 'firebase/app'
 import 'firebase/firestore'
 import Header from '../components/Header'
