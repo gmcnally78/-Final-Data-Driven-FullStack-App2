@@ -40,6 +40,7 @@ import {
 import firebase from 'firebase/app';
 import 'firebase/firestore';
 import Header from '../components/Header';
+import getAbsoluteURL from '../utils/getAbsoluteURL';
 
 const Contact = () => {
     const AuthUser = useAuthUser();
