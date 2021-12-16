@@ -1,43 +1,42 @@
 import React, { useState, useEffect } from 'react'
 import {
-    Container,
+    // Container,
     Flex,
-    Box,
+    // Box,
     Heading,
     Text,
     IconButton,
     Button,
-    VStack,
-    HStack,
-    Wrap,
-    WrapItem,
-    FormControl,
-    FormLabel,
+    // VStack,
+    // HStack,
+    // Wrap,
+    // WrapItem,
+    // FormControl,
+    // FormLabel,
     Input,
     InputGroup,
     InputLeftElement,
-    Textarea,
+    // Textarea,
     Divider,
     Link,
   } from '@chakra-ui/react';
   import { AddIcon, DeleteIcon, StarIcon } from "@chakra-ui/icons"
-  import {
-    MdPhone,
-    MdEmail,
-    MdLocationOn,
-    MdFacebook,
-    MdOutlineEmail,
-    MdOutlinePhonelink,
-    MdOutlinePhoneInTalk,
-  } from 'react-icons/md';
-  import { BsGithub, BsDiscord, BsPerson } from 'react-icons/bs';
+  // import {
+  //   MdPhone,
+  //   MdEmail,
+  //   MdLocationOn,
+  //   MdFacebook,
+  //   MdOutlineEmail,
+  //   MdOutlinePhonelink,
+  //   MdOutlinePhoneInTalk,
+  // } from 'react-icons/md';
+  // import { BsGithub, BsDiscord, BsPerson } from 'react-icons/bs';
   import {
     useAuthUser,
     withAuthUser,
     withAuthUserTokenSSR,
     AuthAction,
 } from 'next-firebase-auth'
-import getAbsoluteURL from '../utils/getAbsoluteURL'
 import firebase from 'firebase/app'
 import 'firebase/firestore'
 import Header from '../components/Header'
