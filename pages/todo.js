@@ -9,21 +9,21 @@ import {
     Text,
     IconButton,
     Divider,
-} from "@chakra-ui/react"
-import { AddIcon, DeleteIcon, StarIcon } from "@chakra-ui/icons"
+} from "@chakra-ui/react";
+import { AddIcon, DeleteIcon, StarIcon } from "@chakra-ui/icons";
 import {
     useAuthUser,
     withAuthUser,
     withAuthUserTokenSSR,
     AuthAction,
-} from 'next-firebase-auth'
+} from 'next-firebase-auth';
 
 // import getAbsoluteURL from '../utils/getAbsoluteURL'
 
 
-import firebase from 'firebase/app'
-import 'firebase/firestore'
-import Header from '../components/Header'
+import firebase from 'firebase/app';
+import 'firebase/firestore';
+import Header from '../components/Header';
 
 
 
