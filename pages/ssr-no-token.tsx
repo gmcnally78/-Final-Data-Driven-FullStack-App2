@@ -59,12 +59,13 @@ export const getServerSideProps = withAuthUserSSR({
   // include one. If you need a server-side token, use
   // `withAuthUserTokenSSR`.
   const token = await AuthUser.getIdToken()
-  const endpoint = getAbsoluteURL('/api/example' )
+  const endpoint = getAbsoluteURL('/api/example' ) 
   const response = await fetch(endpoint, {
     method: 'GET',
     headers: {
       Authorization: token || 'unauthenticated',
     },
+   
   })
   const data: DataType = await response.json()
   if (!response.ok) {
