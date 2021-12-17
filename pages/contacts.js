@@ -1,36 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import {
-    // Container,
-    Flex,
-    // Box,
+    Flex,    
     Heading,
     Text,
     IconButton,
     Button,
-    // VStack,
-    // HStack,
-    // Wrap,
-    // WrapItem,
-    // FormControl,
-    // FormLabel,
     Input,
     InputGroup,
     InputLeftElement,
-    // Textarea,
     Divider,
     Link,
   } from '@chakra-ui/react';
   import { AddIcon, DeleteIcon, StarIcon } from "@chakra-ui/icons";
-  // import {
-  //   MdPhone,
-  //   MdEmail,
-  //   MdLocationOn,
-  //   MdFacebook,
-  //   MdOutlineEmail,
-  //   MdOutlinePhonelink,
-  //   MdOutlinePhoneInTalk,
-  // } from 'react-icons/md';
-  // import { BsGithub, BsDiscord, BsPerson } from 'react-icons/bs';
   import {
     useAuthUser,
     withAuthUser,
